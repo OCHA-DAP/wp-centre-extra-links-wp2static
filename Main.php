@@ -51,7 +51,7 @@ class Plugin {
         // Query to get active redirects
         $results = $wpdb->get_results("
             SELECT * FROM {$wpdb->prefix}redirection_items
-            WHERE status = 'enabled'
+            WHERE status = 'enabled' AND regex != 1
         ");
 
         $redirects = [];
