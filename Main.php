@@ -2,7 +2,7 @@
 /*
 Plugin Name: HDX Extra Links for WP2Static
 Description: Adds extra links to the WP2Static plugin
-Version: 1.0
+Version: 1.0.1
 Author: https://centre.humdata.org
 Author URI: https://centre.humdata.org
 */
@@ -74,7 +74,17 @@ class Plugin {
         $custom_urls = [
             '/wp-content/themes/uncode-child/style.css.map',
             '/wp-content/themes/uncode-child/js/humdata-footer.js.map',
-            '/wp-admin/js/password-strength-meter.min.js'
+            '/wp-admin/js/password-strength-meter.min.js',
+            '/dataviz/',
+            '/hdx_logos/',
+            '/stateofdata2024/',
+            '/stateofdata2023/',
+            '/stateofdata2022/',
+            '/brochure/',
+            '/peer-review-framework/',
+            '/stateofdata2021/',
+            '/documentation/guide/',
+            '/learning-BYTES/quick-tips-for-visualising-data/'
         ];
 
         // Automatically retrieve source URLs from the Redirection plugin
